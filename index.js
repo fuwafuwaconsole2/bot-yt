@@ -21,7 +21,7 @@ const start = async () => {
                 console.log(`Opening... ${urlObj.data}`)
                 await page.keyboard.press('Tab');
                 await page.keyboard.press('Enter');
-                await new Promise(r => setTimeout(r, 30000)); // Wait for 30 seconds
+                await new Promise(r => setTimeout(r, 180000)); // Wait for 3 minutez
                 await page.close();
             }
 
